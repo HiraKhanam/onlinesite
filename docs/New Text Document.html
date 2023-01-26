@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      header {
+        height: 50px;
+        background: pink;
+      }
+      footer {
+        height: 50px;
+        background: blue;
+
+        /*position: absolute;
+        bottom: 0;
+        width:100%; not right as the footer got displaced when the scrollbar appears*/
+      }
+      section {
+        height: calc(100vh - 100px);
+        text-align: center;
+        margin-top: auto;
+      }
+      .box {
+        height: calc(100vh - 100px);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: fit-content;
+        width: fit-content;
+        margin: Auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header></header>
+    <section>
+      <div class="box">
+        <h1>Hello Hi Bye Tata</h1>
+        <h1>Hello Hi Bye Tata</h1>
+        <h1>Hello Hi Bye Tata</h1>
+        <h1>Hello Hi Bye Tata</h1>
+        <h1>Hello Hi Bye Tata</h1>
+        <h1>Hello Hi Bye Tata</h1>
+        <img />
+      </div>
+    </section>
+    <footer></footer>
+  </body>
+</html>
